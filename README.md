@@ -55,4 +55,4 @@ Python 3.8.6
 
 - Justify the chosen data visualization approach
 
-	All data was visualized in a jupyter notebook with the Bokeh visualization library.
+	All data was visualized in a jupyter notebook with the Bokeh visualization library and can be found under the directory *final_visualizations*.
