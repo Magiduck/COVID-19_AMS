@@ -26,6 +26,7 @@ Programming 1 final project of Master Data Science for Life Sciences
 
 
 - Justify the chosen data storage and processing approach
+
 	Data can be downloaded from the following links in CSV- and JSON-format.
 
 	- https://data.rivm.nl/geonetwork/srv/dut/catalog.search#/metadata/ed0699d1-c9d5-4436-8517-27eb993eab6e
@@ -48,3 +49,5 @@ Programming 1 final project of Master Data Science for Life Sciences
 	As of 2020, Amsterdam accounts for 5.01% of the population of the Netherlands.**
 
 - Justify the chosen data visualization approach
+
+	All data was visualized in a jupyter notebook with the Bokeh visualization library.
