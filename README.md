@@ -31,8 +31,20 @@ Programming 1 final project of Master Data Science for Life Sciences
 	- https://data.rivm.nl/geonetwork/srv/dut/catalog.search#/metadata/ed0699d1-c9d5-4436-8517-27eb993eab6e
 	- https://data.rivm.nl/geonetwork/srv/dut/catalog.search#/metadata/5f6bc429-1596-490e-8618-1ed8fd768427
 
+	Data is not kept in Github because of size limitations. All data is processed programmaticaly with Pandas.	
 
 - Justify the chosen analysis approach
-
+	
+	Analysis was done by firstly exploring both datasets (reproduction number dataset and positive tests dataset). Data was sampled from daily to weekly to get less variance between datapoints. 
+	
+	Here after the amount of positive cases in amsterdam was compared to expected amount of positive cases in amsterdam based on population assuming COVID-19 cases are uniformly distributed through-out the Netherlands.
+	The absolute change in positive cases between datapoints was calculated and data before the 12th of june 2020 was removed. This was done because the R before the 12th of june was calculated based on number of hospital admissions
+	And was not deemed accurate enough. For our research questions we look at the R calculated based on positive cases (after 12th of june 2020). 
+	
+	Subsequently the correlation between the R variables, absolute change in positive cases, total positive cases, deaths and hospital admissions were visualized. As expected the lower and upper bound of R correlate highly with the 
+	average R, while the second cluster of correlation is visible in the deaths, hospitalisations and total reported positive cases.
+	Finally the R was plotted against the absolute change in positive cases for both the Netherlands (including Amsterdam) and the municipality of Amsterdam. By taking the fraction of the slope of Amsterdam compared to the 
+	Netherlands the conclusion was reached. **Since 2020-06-12 until 2021-02-22, 8.43% of the reproduction number R of COVID-19 in the Netherlands can be explained by positive cases in Amsterdam.
+	As of 2020, Amsterdam accounts for 5.01% of the population of the Netherlands.**
 
 - Justify the chosen data visualization approach
