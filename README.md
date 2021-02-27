@@ -1,6 +1,18 @@
+Python 3.8.6
 # COVID-19_AMS
 # What fraction of the basic reproduction number "R" of COVID-19 in The Netherlands is explained by the number of positive tests in the municipality of Amsterdam?
 ## A study of correlation using daily Dutch COVID-19 data of the National Institute for Public Health and the Environment (RIVM)
+
+### Dependencies
+
+- Python 3.8.6
+
+	- jupyter 1.0.0
+	- notebook 6.2.0
+	- IPython 7.20.0
+	- numpy 1.20
+	- pandas 1.2.1
+	- bokeh 2.2.3
 
 Programming 1 final project of Master Data Science for Life Sciences
 
