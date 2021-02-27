@@ -14,6 +14,11 @@ Python 3.8.6
 	- pandas 1.2.1
 	- bokeh 2.2.3
 
+### Optional dependencies (if plots are too large for notebook)
+
+- jupyterthemes 0.20.0
+	- After which you can run *jt -t onedork -fs 95 -altp -tfs 11 -nfs 115 -cellw 88% -T*
+
 ### Programming 1 final project of Master Data Science for Life Sciences
 
 - State the region and the domain category that your data sets are about
