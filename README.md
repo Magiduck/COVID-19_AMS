@@ -18,7 +18,7 @@ Programming 1 final project of Master Data Science for Life Sciences
 
 - State the region and the domain category that your data sets are about
 
-	The datasets from the RIVM contain data about COVID-19 (epedemic data) in the region of the Netherlands on municipality level
+	The datasets from the RIVM contain data about COVID-19 (epidemic data) in the region of the Netherlands on municipality level
 
 - State the research question
 
