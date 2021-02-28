@@ -13,7 +13,7 @@
 	- pandas 1.2.1
 	- bokeh 2.2.3
 
-### Optional dependencies (if plots are too large for notebook)
+### Optional dependencies (if plots are too large for notebook or code gets cut-off)
 
 - jupyterthemes 0.20.0
 	- After which you can run *jt -t onedork -fs 95 -altp -tfs 11 -nfs 115 -cellw 88% -T*
@@ -50,8 +50,12 @@
 	average R, while the second cluster of correlation is visible in the deaths, hospitalisations and total reported positive cases.
 	Finally the R was plotted against the absolute change in positive cases for both the Netherlands (including Amsterdam) and the municipality of Amsterdam. By taking the fraction of the slope of Amsterdam compared to the 
 	Netherlands the conclusion was reached. **Since 2020-06-12 until 2021-02-22, 8.43% of the reproduction number R of COVID-19 in the Netherlands can be explained by positive cases in Amsterdam.
-	As of 2020, Amsterdam accounts for 5.01% of the population of the Netherlands.**
+	As of 2020, Amsterdam accounts for 5.01% of the population of the Netherlands.** Further research is needed to interpret if this is as expected or not.
 
 - Justify the chosen data visualization approach
 
-	All data was visualized in a jupyter notebook with the Bokeh visualization library and can be found under the directory *final_visualizations*.
+	All data was visualized in a jupyter notebook with the Bokeh visualization library and can be found under the directory *final_visualizations*. Further captions explaining the plots can be found under *analysis.ipynb* 
+
+	**Plot 1**: The reproduction number was plotted in a line plot of the average with a 95% confidence band around it based on the 'R_up' and 'R_low' provided in the dataset from the RIVM. The R value of 1 is drawn into the plot because of the nature of R to decrease below 1 and increase above 1 by itself. Also annotateed is the change in methods for the calculation of R on the 12th of june 2020.
+
+	**Plot 2**: The total number of new COVID-19 cases for Amsterdam vs. other municipalities in the Netherlands was plotted in a scatter plot. A scatter plot was chosen because in this plot each dot represents a day for a municipality creating a lot of data points, to chaotic for a line plot.
