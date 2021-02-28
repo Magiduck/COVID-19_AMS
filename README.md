@@ -58,4 +58,16 @@
 
 	**Plot 1**: The reproduction number was plotted in a line plot of the average with a 95% confidence band around it based on the 'R_up' and 'R_low' provided in the dataset from the RIVM. The R value of 1 is drawn into the plot because of the nature of R to decrease below 1 and increase above 1 by itself. Also annotateed is the change in methods for the calculation of R on the 12th of june 2020.
 
-	**Plot 2**: The total number of new COVID-19 cases for Amsterdam vs. other municipalities in the Netherlands was plotted in a scatter plot. A scatter plot was chosen because in this plot each dot represents a day for a municipality creating a lot of data points, to chaotic for a line plot.
+	**Plot 2**: The total number of new COVID-19 cases for Amsterdam vs. other municipalities in the Netherlands was plotted in a scatter plot. A scatter plot was chosen because in this plot each dot represents a day for a municipality creating a lot of data points, too chaotic for a line plot.
+
+	**Plot 3**: The absolute change in COVID-19 cases per day in Amsterdam vs other municipalities in the Netherlands. By plotting the other municipalities together in a scatter plot you can already roughly see the contribution of positive cases in Amsterdam to the positive cases in the Netherlands. It also shows that the daily data varies greatly between subsequent datapoints.
+
+	**Plot 4**: This plot serves as a zoom in of the previous plot in which the outliers are removed to look closer to the average pattern of absolute change in COVID-19 cases.
+
+	**Plot 5**: This plot shows the same data as plot 3 but sampled weekly. This shows that weekly sampling removes a lot of variability between datapoints and shows a clearer trend. It is seen that in the first wave Amsterdam did not contribute that much to the number of total positive cases while in the second wave they do.
+
+	**Plot 6**: The total number of new COVID-19 cases per day in the Netherlands and Amsterdam. In this plot it was chosen to visualize the total number of new COVID-19 cases per day in areas. This creates a clear overview of the contribution of positive cases of Amsterdam to the positive cases in The Netherlands. An orange line was drawn toshow the expected number of positive cases in Amsterdam based on the total number of cases in the Netherlands and the proportion of the Dutch population living in Amsterdam. This line somewhat follows the real number of positive cases with periods in which the number of expected cases is higher and lower than the real number of positive cases.
+
+	**Plot 7**: The comparison between the average reproduction number R vs. the absolute change of new COVID-19 cases. The very horizontally flat line suggests that the higher the R in the Netherlands does not particularly mean the higher the number of new COVID-19 cases in Amsterdam. By taking the difference between the first coefficient of the linear regression of the Netherlands and Amsterdam you can (naively) tell the contribution of the positive cases in Amsterdam to the R in the Netherlands.
+
+	**Plot 8**: This plot is the same as plot 7 but with outliers trimmed off.
