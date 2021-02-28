@@ -34,7 +34,9 @@
 	Data can be downloaded from the following links in CSV- and JSON-format.
 
 	- https://data.rivm.nl/geonetwork/srv/dut/catalog.search#/metadata/ed0699d1-c9d5-4436-8517-27eb993eab6e
+		- Direct link: https://data.rivm.nl/covid-19/COVID-19_reproductiegetal.json 	
 	- https://data.rivm.nl/geonetwork/srv/dut/catalog.search#/metadata/5f6bc429-1596-490e-8618-1ed8fd768427
+		- Direct link: https://data.rivm.nl/covid-19/COVID-19_aantallen_gemeente_per_dag.csv 	
 
 	Data is not kept in Github because of size limitations. All data is processed programmaticaly with Pandas.	
 
